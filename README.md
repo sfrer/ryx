@@ -1,5 +1,5 @@
 # ryx
-
+<img src="dog.jpg" width="800"/>
 <!-- badges: start -->
 <!-- badges: end -->
 
