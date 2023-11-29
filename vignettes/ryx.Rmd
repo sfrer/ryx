@@ -21,4 +21,5 @@ print(x, digits=3)
 summary(x, digits=3)
 plot(x)
 ```
+
 The package has one main function `ryx` for testing the correlation of response and explanatory variables, and three generic functions: `print`, `summary`, `plot`.
