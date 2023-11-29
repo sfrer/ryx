@@ -1,0 +1,17 @@
+Package: ryx
+Title: Test the correlations
+Version: 0.0.0.9000
+Authors@R: 
+    person("Simin", "Liu", , "sliu02@wesleyan.edu", role = c("aut", "cre")
+           )
+Description: The package has one main function ryx and 3 methods for it: print, summary, plot. The ryx function will test the correlations of the response variable and explanatory variables. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

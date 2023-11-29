@@ -1,0 +1,24 @@
+---
+title: "Introduction to ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Welcome to the `ryx` package. This package is built to make correlation test easier. 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ryx)
+x=ryx(mtcars, "mpg", c("hp", "wt"))
+print(x, digits=3)
+summary(x, digits=3)
+plot(x)
+```
+The package has one main function `ryx` for testing the correlation of response and explanatory variables, and three generic functions: `print`, `summary`, `plot`.
