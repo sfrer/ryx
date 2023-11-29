@@ -1,5 +1,5 @@
 # ryx
-<img src="dog.jpg" width="600"/>
+<img src="dog.jpg" width="800"/>
 
 The goal of ryx is to make correlation test easier. It will test the correlation of quantitative response variable and explanatory variables. 
 
